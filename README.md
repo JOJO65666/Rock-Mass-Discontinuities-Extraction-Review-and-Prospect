@@ -1,0 +1,4 @@
+This code is associated with the literature "Intelligent Methods for Rock Mass Discontinuities Extraction Based on 3D Point Clouds: Review and Prospect". 
+Among them, Review.las, .txt, and .npy are the open-source point cloud data used in the article, along with the corresponding normal vector and curvature files, which can be directly loaded in the code (the calculation method of normal vectors can be found at https://github.com/JOJO65666/Discontinuity.git). 
+RANSAC_planes.pkl is the saved file of the extraction results obtained by the RANSAC plugin in CloudCompare.
+In addition, the Review.ipynb file basically includes all the methods and parameters mentioned in this article, and it also comes with functions such as open3d visualization, manual coloring of dominant sets of discontinuity planes, and saving of point cloud las files.
